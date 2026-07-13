@@ -1,0 +1,21 @@
+arch-repo: https://geo.mirror.pkgbuild.com
+impl: https://github.com/blend-os/tracks/raw/main
+packages:
+- nvidia-dkms
+- nvidia-prime
+- switcheroo-control
+- flatpak
+- postgresql
+- micro
+- gparted
+aur-packages:
+- mint-y-icons
+- happ
+- clash-verge
+- materia-transparent-gtk-theme-git
+repo: https://pkg-repo.blendos.co
+services:
+- switcheroo-control
+- postgresql
+track: default-gnome
+commands: "sudo rm -rf /usr/share/sounds/freedesktop"
